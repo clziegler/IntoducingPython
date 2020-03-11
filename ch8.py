@@ -51,7 +51,7 @@ for x in got:
 keys = ('optimist', 'pessimist', 'troll')
 values = ('The glass is half full', 'The glass is half empty', 'How did you get a glass?')
 
-combined = {k:v for k, v in zip(keys, values)}
+combined = {pair for pair in zip(keys, values)}
 print(combined)
 
 # 8.14
